@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    flex-direction: row;
+ align-self: flex-start;
+ /* margin-top: 2vw; */
+
+}
+.container a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+#rightSide{
+    padding:2vw;
+}
+.sidepanel{
+    display: flex;
+    flex-direction: column;
+    background-color: #753caa;;
+    padding: 2vw;
+    margin-left: 2vw;
+    gap:1vw;
+    height:60vh;
+    border-radius: 14px;
+    
+}
+.options .active{
+    color:rgb(246, 255, 0);
+}
+.voteContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+    
+}
+.keys{
+    margin: 3px;
+    font-size: 13pt;
+}
+.values{
+    display: flex;
+    flex-direction: row;
+    margin: 3px;
+    font-size: 13pt;
+   
+    gap:1vw;
+
+
+}
+.values input{
+    width:30vw ;
+}
+.form{
+    padding: 2vw;
+}
+table, th, td{
+border-collapse: collapse;
+border: 2px solid rgb(76, 76, 233);
+padding: 2px 7px;
+}
+.RegisterForm{
+    display: flex;
+    flex-direction: row;
+    margin: 2em;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   width:100%;
+
+}
+input{
+    margin-left: 12px;
+}
+
+
+
+
+  
+  
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    margin-left: 2em ;
+    margin-top: 1em ;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #53277c;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+  .inputs{
+      margin: 1em 1em;
+      width: 40vw;
+  }
