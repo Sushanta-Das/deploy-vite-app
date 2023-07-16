@@ -53,7 +53,9 @@ export const AfterLogin = (props) => {
       {/* <button className='loginButton' onClick={props.connectAccount}></button> */}
       <div>Metamask Account: {props.account}</div>
       {/* <RouterProvider router={router} /> */}
-      <BrowserRouter>
+      <BrowserRouter
+        basename={import.meta.env.DEV ? "/" : "/react-vite-gh-pages/"}
+      >
         <Routes>
           <Route path="/" element={<Root />}>
             <Route index element={<Default />} />
